@@ -1,0 +1,20 @@
+password: 10969
+
+node1:
+Public address of the key:   0x74fA2846D21F8c5aAe753f88ee9825D045Df2D03
+Path of the secret key file: node1\keystore\UTC--2021-06-08T03-32-30.525023100Z--74fa2846d21f8c5aae753f88ee9825d045df2d03
+enode://ed07b49a30b340719375aa0959b40874360a7f0c9091cdd9372a7cefe5266174ad0d9abcc1c36eff62d49a3241bfb3a84343f73bbc5cbc6b51c4aa02a781f19e@127.0.0.1:30303
+
+./geth --datadir node1 --unlock "74fA2846D21F8c5aAe753f88ee9825D045Df2D03" --mine --minerthreads 1
+
+node2:
+Public address of the key:   0xa62910D1C4fbc2A48DCC5de4c0d14f72b27EC5a8
+Path of the secret key file: node2\keystore\UTC--2021-06-08T03-36-53.322730000Z--a62910d1c4fbc2a48dcc5de4c0d14f72b27ec5a8
+
+
+node1
+Public address of the key:   0x05a8389386F101Ab62ad54E61e0d0Ca53C4D56FB
+Path of the secret key file: node1\keystore\UTC--2021-06-08T04-14-41.426411100Z--05a8389386f101ab62ad54e61e0d0ca53c4d56fb
+node2
+Public address of the key:   0xb946C674Fb787ab98e897d566C189Cd0A5e89124
+Path of the secret key file: node2\keystore\UTC--2021-06-08T04-15-37.521925900Z--b946c674fb787ab98e897d566c189cd0a5e89124
